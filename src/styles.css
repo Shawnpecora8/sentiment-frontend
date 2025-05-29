@@ -1,0 +1,32 @@
+body {
+  background: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.app {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sentiment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.sentiment-table th,
+.sentiment-table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.sentiment-table th {
+  background-color: #f1f1f1;
+}
